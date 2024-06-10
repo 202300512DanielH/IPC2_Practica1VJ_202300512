@@ -1,0 +1,8 @@
+// Lista de Tareas
+digraph {
+	rankdir=LR
+	node [fillcolor=lightblue2 shape=record style=filled]
+	nodo1 [label="<f0> ID: 1 | Nombre: Ekjsdkfl | Descripción: dkfljalsdkf | Estado: pendiente | <f1> siguiente"]
+	nodo1:f1 -> nodo2:f0
+	nodo2 [label="<f0> ID: 2 | Nombre: dkfjlkñas | Descripción: ksladjmfñlka | Estado: pendiente | <f1> siguiente"]
+}
